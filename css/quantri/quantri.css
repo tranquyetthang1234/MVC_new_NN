@@ -1,0 +1,73 @@
+a { color:#036; text-decoration:none; font-weight:bold}
+a:hover {text-decoration:underline}
+body {
+font-family: "Times New Roman",Arial,Tahoma; font-size:16px; background-color: #848855;
+}
+#wrapper{width:1260px; margin-top:0;margin:auto }
+#header{height:45px; }
+#menu{}
+#content{width:1260px; background-color:#CCFFCC; min-height:430px; }
+#header h1{float:left; font-size:28px; color:#FFFF00; margin:10px 0 0 10px; text-transform:uppercase; }
+#header #chao{text-align:right; color:yellow; margin-right:10px; margin-top:10px; float:right}
+#header #chao p{margin:5px 0 5px 0}
+#header #chao a{color:yellow; text-decoration:none}
+#header #chao a:hover { color:#FFF}
+#menu a{ color:#FFF; display:block; text-decoration:none; padding: 5px 0px 5px 10px; border-bottom:solid 1px #FFF  }
+#menu a:hover { background-color:#E23D80 }
+.form  { width:550px; margin-top:10px;margin-left:auto;margin-right:auto; border:solid 3px #728CB0; border-radius:8px;}
+.form h4 { text-align:center; margin:0; border-top-radius:8px;text-transform:uppercase; padding:5px}
+.form p {margin-top:10px; margin-bottom:10px}
+.form span {width:110px; float:left; color:#13A1CB; margin-left:20px}
+.form #btn { width:130px; height:35px; background-color:#003366; color:#FFF; border:solid 3px #036; border-radius:20px; cursor:pointer }
+.form .txt {width:400px; background-color:#11752C; color:yellow; padding:5px 0 5px 0  }
+.form select.txt{ text-align:left}
+
+.list { border-collapse:collapse}
+#listNews {table-layout:auto;}
+
+.list th { background-color:#036; color:#FFF}
+.list th a { color:#FFF}
+.list .captionrow { background-color:#036; color:#FFF; padding-top:10px; padding-bottom:10px; font-weight:bold;}
+.list .captionrow span {text-transform:uppercase; float:left; font-size:20px; margin-top:5px }
+.list .captionrow a {color:white; float:right; width:100px; background-color:#F39; text-align:center; 
+	height:30px; line-height:30px; font-size:18px; cursor:pointer; border-radius:15px }
+.list .captionrow a:hover {color:yellow;  background-color:#aaa; font-weight:bold; font-size:20px; text-decoration:none;   }
+.list .captionrow #search { float:left; margin:0px 0 0 10px}
+.list .captionrow #search .loai { color:#003366; width:150px; font-size:14px }
+.list .captionrow #search a {float:none}
+
+.list .motbaiviet p { margin:0; text-align:justify; font-size:18px}
+.list .motbaiviet h4.tieude { margin:0; text-align:left}
+.list .motbaiviet span.xem{ font-style:italic; color:#00665E; }
+.list .motbaiviet .idbv, .list .motbaiviet .tenloai {color: #333; font-weight:normal; font-style:italic; }
+.list .motbaiviet .action p {margin:15px 0 12px 0; text-align:center}
+.list .motbaiviet .action .del  {width:25px ; height:25px; }
+.list .motbaiviet .action .edit  {width:25px ; height:25px; margin-left:5px;}
+.list .motbaiviet .action .dangbai  {width:20px ; height:18px; cursor:pointer}
+.list .motbaiviet .action .anhien  {width:20px ; height:20px; margin-left:8px;cursor:pointer}
+.list .motbaiviet .action .noibat  {width:20px ; height:20px; margin-left:8px;cursor:pointer}
+.list .txt1  {width:170px; background-color:#11752C; color:yellow; }
+#richContent{ display:table;border-collapse:separate;border-spacing:5px}
+#richContent_left{width:410px;  display:table-cell; min-height:500px;  border:3px solid #728CB0;border-radius:8px;}
+.formbv { width:830px; margin:0 auto 0 auto; border:solid 3px #728CB0; border-radius:8px;}
+.formbv h4 { text-align:left; margin:0 0 0 10px; border-top-radius:8px;text-transform:uppercase;  font-size:20px}
+.formbv p {margin-top:10px; margin-bottom:10px}
+.formbv .btnsubmit { width:150px; height:35px; background-color:#003366; color:#FFF; border:solid 3px #036; border-radius:3px; font-weight:bold; font-size:15px; margin-top:15px; cursor:pointer }
+.formbv .btnsubmit:hover{background-color:#DD9933; border:none}
+.formbv .txt {width:535px; background-color:#11752C; color:yellow; padding:3px 0 3px 8px;font-size:15px }
+.formbv  #loaicha {width:240px; background-color:#11752C; color:yellow;padding:3px 0 3px 8px;font-size:15px }
+.formbv #urlhinh {width:500px}
+.formbv  #hinhdaidien {width:110px; height:75px; float:right; margin-right:5px; margin-top:-8px}
+.formbv #tomtat { height:120px; resize:none; font-size:16px}
+.formbv .info span {width:60px; float:left; color:#13A1CB; margin-left:5px}
+
+#thanhphantrang { margin:10px}
+#thanhphantrang a { color:#FF0; font-weight:bold; text-decoration:none; 
+	margin-right:4px; margin-left:4px; padding-left:8px; padding-right:8px;
+	padding-top:5px; padding-bottom:5px; background-color:#033;
+	border-radius:15px;}
+#thanhphantrang span { color:#FFF; font-weight:bold; text-decoration:none; 
+	margin-right:4px; margin-left:4px; padding-left:8px; padding-right:8px;
+	padding-top:5px; padding-bottom:5px; background-color:#13A1CB;
+	border-radius:15px;}
+#thanhphantrang a:hover { color:#0F6; background-color:#930}

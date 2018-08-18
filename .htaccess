@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteBase /tintuc/
+RewriteRule css - [L]
+RewriteRule img - [L]
+RewriteRule js - [L]
+RewriteRule (.*) app/index.php [L]
+AddDefaultCharset UTF-8
